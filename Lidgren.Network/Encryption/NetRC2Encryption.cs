@@ -4,6 +4,8 @@ using System.Security.Cryptography;
 
 namespace Lidgren.Network
 {
+	//TODO: Readd this later when the main repo is fixed and contains this class.
+	/*
 	public class NetRC2Encryption : NetCryptoProviderBase
 	{
 		public NetRC2Encryption(NetPeer peer)
@@ -22,5 +24,5 @@ namespace Lidgren.Network
 		{
 			SetKey(data, offset, count);
 		}
-	}
+	}*/
 }

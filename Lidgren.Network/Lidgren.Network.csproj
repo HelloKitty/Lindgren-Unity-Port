@@ -62,7 +62,6 @@
     <Compile Include="Encryption\NetAESEncryption.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Encryption\NetCryptoProviderBase.cs" />
     <Compile Include="Encryption\NetDESEncryption.cs">
       <SubType>Code</SubType>
     </Compile>
