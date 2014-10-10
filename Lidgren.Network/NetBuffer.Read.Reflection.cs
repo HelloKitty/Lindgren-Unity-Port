@@ -96,7 +96,10 @@ namespace Lidgren.Network
 #if UNITY_WEBPLAYER || UNITY_4_5
 					var setMethod = fi.GetSetMethod();
 #else
-					var setMethod = fi.SetMethod;
+					//This must be changed to the above as this cannot be done in .Net 3.5
+					//Reflection is not too fancy in 3.5
+					//Previous: var setMethod = fi.SetMethod;
+					var setMethod = fi.GetSetMethod();
 #endif
 					if (setMethod != null)
 						setMethod.Invoke(target, new object[] { value });

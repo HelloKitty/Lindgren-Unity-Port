@@ -81,8 +81,12 @@ namespace Lidgren.Network
 #if UNITY_WEBPLAYER || UNITY_4_5
 				MethodInfo getMethod = fi.GetGetMethod();
 #else
-				MethodInfo getMethod = fi.GetMethod;
+				//This must be changed to the above as this cannot be done in .Net 3.5
+				//Reflection is not too fancy in 3.5
+				//Previous: MethodInfo getMethod = fi.GetMethod;
+				MethodInfo getMethod = fi.GetSetMethod();
 #endif
+
 				if (getMethod != null)
 				{
 					object value = getMethod.Invoke(ob, null);
