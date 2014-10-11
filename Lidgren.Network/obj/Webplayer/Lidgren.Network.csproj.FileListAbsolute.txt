@@ -1,0 +1,4 @@
+C:\Users\Andrew Blakely\Documents\GitHub\Lindgren-Unity-Port\Lidgren.Network\bin\Webplayer\Lidgren.Network.dll
+C:\Users\Andrew Blakely\Documents\GitHub\Lindgren-Unity-Port\Lidgren.Network\bin\Webplayer\Lidgren.Network.pdb
+C:\Users\Andrew Blakely\Documents\GitHub\Lindgren-Unity-Port\Lidgren.Network\obj\Webplayer\Lidgren.Network.dll
+C:\Users\Andrew Blakely\Documents\GitHub\Lindgren-Unity-Port\Lidgren.Network\obj\Webplayer\Lidgren.Network.pdb

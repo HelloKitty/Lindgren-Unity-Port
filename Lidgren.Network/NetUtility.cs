@@ -200,8 +200,7 @@ namespace Lidgren.Network
 			}
 		}
 
-#if IS_FULL_NET_AVAILABLE
-
+#if IS_FULL_NET_AVAILABLE && !UNITY_WEBPLAYER
 		private static NetworkInterface GetNetworkInterface()
 		{
 			IPGlobalProperties computerProperties = IPGlobalProperties.GetIPGlobalProperties();
@@ -309,7 +308,7 @@ namespace Lidgren.Network
 				return IPAddress.Broadcast;
 			}
 #endif		
-#if IS_FULL_NET_AVAILABLE
+#if IS_FULL_NET_AVAILABLE && !UNITY_WEBPLAYER
 			try
 			{
 				NetworkInterface ni = GetNetworkInterface();

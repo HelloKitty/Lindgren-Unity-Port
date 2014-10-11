@@ -181,7 +181,7 @@ namespace Lidgren.Network
 				byte[] macBytes = new byte[8];
 				MWCRandom.Instance.NextBytes(macBytes);
 
-#if IS_MAC_AVAILABLE
+/*#if IS_MAC_AVAILABLE && !UNITY_WEBPLAYER
 				try
 				{
 					System.Net.NetworkInformation.PhysicalAddress pa = NetUtility.GetMacAddress();
@@ -199,7 +199,7 @@ namespace Lidgren.Network
 				{
 					// not supported; lets just keep the random bytes set above
 				}
-#endif
+#endif*/
 				IPEndPoint boundEp = m_socket.LocalEndPoint as IPEndPoint;
 				byte[] epBytes = BitConverter.GetBytes(boundEp.GetHashCode());
 				byte[] combined = new byte[epBytes.Length + macBytes.Length];

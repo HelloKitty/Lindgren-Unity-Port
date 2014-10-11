@@ -1,0 +1,8 @@
+C:\Users\Andrew Blakely\Documents\GitHub\Lindgren-Unity-Port\UnitTests\bin\x86\Webplayer\UnitTests.exe.config
+C:\Users\Andrew Blakely\Documents\GitHub\Lindgren-Unity-Port\UnitTests\bin\x86\Webplayer\UnitTests.exe
+C:\Users\Andrew Blakely\Documents\GitHub\Lindgren-Unity-Port\UnitTests\bin\x86\Webplayer\UnitTests.pdb
+C:\Users\Andrew Blakely\Documents\GitHub\Lindgren-Unity-Port\UnitTests\bin\x86\Webplayer\Lidgren.Network.dll
+C:\Users\Andrew Blakely\Documents\GitHub\Lindgren-Unity-Port\UnitTests\bin\x86\Webplayer\Lidgren.Network.pdb
+C:\Users\Andrew Blakely\Documents\GitHub\Lindgren-Unity-Port\UnitTests\obj\x86\Webplayer\UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Andrew Blakely\Documents\GitHub\Lindgren-Unity-Port\UnitTests\obj\x86\Webplayer\UnitTests.exe
+C:\Users\Andrew Blakely\Documents\GitHub\Lindgren-Unity-Port\UnitTests\obj\x86\Webplayer\UnitTests.pdb
